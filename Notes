@@ -1,0 +1,25 @@
+Sykes: 
+
+  + Requirement was to create embed Connect Api on a Web Application allowing client interaction request a queued call for a representative.
+    - This requires Api deployment into a web application and Connect work. Aws console access with required permissions.
+
+  + George has been working on AWS using Amplify to deploy a front-end web application and embed the Connect the API on it but he is stuck on the process. 
+    - Needs help to troubleshoot possible permissions issue but we don't have information about development status or its progress. There might be more than on problem to solve. We 
+      need to review the environment to determine action-steps.
+
+
+
+  1) Either we troubleshoot and help George with the current deployment to continue with the work he has done 
+    (We don't know what he has done or if that development is correctly done)
+     
+    A) In order to troubleshoot George deployment we need to meet with him to see the actual resources and services involved and request aws access. We can meet, watch him share the screen and help him from there but we might need Aws IAM permissions to access the services at our end to be able to perform the troubleshoot accordingly.
+    
+  2) Or we rise a new demo environment on our end to demonstrate the Connect API integration on a random web application as a PoC.
+     - With this we avoid the permissions/access issue.
+
+
+Side notes:
+
+ + Sykes already has a development server where they have the running web app but we dur security restrictions, they can't grant access to us.
+
+  + Web App is running on Windows based server with IIS for the web engine.   
